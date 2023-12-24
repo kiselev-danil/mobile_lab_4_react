@@ -12,7 +12,9 @@ function App() {
       <div className={classes.appHeader}>
         <AppHeader />
       </div>
-      <ConsultAdv />
+      <div className={classes.consultAdv}>
+        <ConsultAdv />
+      </div>
     </>
   )
 }

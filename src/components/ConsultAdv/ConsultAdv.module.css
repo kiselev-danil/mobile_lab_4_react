@@ -1,0 +1,55 @@
+.consultAdv {
+    display: flex;
+    flex-direction: raw;
+    justify-content: space-between;
+    align-items: center;
+    font-family: var(--main-font-family);
+}
+
+.consultBody {
+    display: flex;
+    flex-direction: column;
+    max-width: 427px;
+    align-items: flex-start;
+
+}
+
+.blockLabel {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116.667%;
+    margin: 0;
+}
+
+.text {
+    color: var(--second-text-color);
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 25px;
+}
+
+.consultButton {
+    font-family: var(--main-font-family);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 333.333%;
+    width: fit-content;
+    border-radius: 55px;
+    border-width: 0;
+    border-style: solid;
+    border-color: var(--second-color);
+    cursor: pointer;
+    color: var(--main-bg-color);
+    background-color: var(--second-color);
+    padding: 3px 40px 1px 40px;
+    margin-top: 48px;
+}
+
+.consultIllustration {
+    width: 43vw;
+    height: auto;
+}
