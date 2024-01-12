@@ -1,5 +1,4 @@
 import classes from "./Logo.module.css"
-import clsx from "clsx";
 
 const Logo: React.FC = () => {
     return (

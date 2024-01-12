@@ -1,6 +1,5 @@
 
 import classes from "./ConsultAdv.module.css"
-import clsx from "clsx";
 import consultIllustrationSRC from '../../assets/illustration1.svg'
 
 const ConsultAdv: React.FC = () => {

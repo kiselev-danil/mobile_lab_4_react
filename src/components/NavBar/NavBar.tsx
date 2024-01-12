@@ -1,5 +1,4 @@
 import classes from "./NavBar.module.css"
-import clsx from "clsx";
 
 const NavBar: React.FC = () => {
     return (
