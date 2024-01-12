@@ -1,0 +1,22 @@
+.navList {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    font-family: Moilish, sans-serif;
+
+
+}
+
+ul {
+    list-style: none;
+}
+
+.navListElement {
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+.navListElement:hover {
+    opacity: 1;
+    font-weight: bold;
+}
